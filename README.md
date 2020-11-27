@@ -83,6 +83,7 @@ This is the controller board in the disk drive. This board connects to the inter
 ### Connector J3
 
 | Pin | Direction* | Function |
+|-----|------------|----------|
 | 1   | Power      | +10V     |
 | 2   | -          | NC       |
 | 3   | Power      | GND      |
