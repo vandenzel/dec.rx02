@@ -7,7 +7,7 @@ This is the controller board in the disk drive. This board connects to the inter
 ### Connector J1
 40 Pins IDC connection to the interface board in the computer
 
-| Pin     | Direction[^1] | Function              |
+| Pin     | Direction*    | Function              |
 |---------|---------------|-----------------------|
 | A (40)  | Power         | GND                   |
 | B (39)  | Power         | GND                   |
@@ -50,9 +50,12 @@ This is the controller board in the disk drive. This board connects to the inter
 | UU (2)  | Power         | GND                   |
 | VV (1)  | Input         | RX DMA INTF H         |
 
+*: Direction as seen from the board.
+
+
 ### Connector J2
 
-| Pin | Direction[^1] | Function               |
+| Pin | Direction* | Function               |
 |-----|------------|------------------------|
 | 1   | Power      | GND                    |
 | 2   | Output     | DRV OUT/ABV 43 H       |
@@ -75,9 +78,11 @@ This is the controller board in the disk drive. This board connects to the inter
 | 19  | Output     | DRV LOCK CLK H         |
 | 20  | Power      | GND                    |
 
+*: Direction as seen from the board.
+
 ### Connector J3
 
-| Pin | Direction[^1] | Function |
+| Pin | Direction* | Function |
 | 1   | Power      | +10V     |
 | 2   | -          | NC       |
 | 3   | Power      | GND      |
@@ -85,12 +90,14 @@ This is the controller board in the disk drive. This board connects to the inter
 | 5   | Power      | GND      |
 | 6   | -          | NC       |
 
+*: Direction as seen from the board.
+
 ## RX02 READ/WRITE CONTROL
 
 ### Connector J1
 This connects to Connector J2 on the RX02 FLOPPY DISK CONTROLLER . The cable is twisted (pin 1 on one side connects to pin 20 on the other)
 
-| Pin | Direction[^1] | Function               |
+| Pin | Direction* | Function               |
 |-----|------------|------------------------|
 | 1   | Power      | GND                    |
 | 2   | Input      | DRV LOCK CLK H         |
@@ -113,4 +120,4 @@ This connects to Connector J2 on the RX02 FLOPPY DISK CONTROLLER . The cable is 
 | 19  | Input      | DRV OUT/ABV 43 H       |
 | 20  | Power      | GND                    |
 
-[^1]: Direction as seen from the board.
+*: Direction as seen from the board.
